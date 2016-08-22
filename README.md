@@ -1,8 +1,7 @@
 # JXPickerContainer
 - 一个常见的选择器/时间选择器
 
-![JXTimePicker](http://upload-images.jianshu.io/upload_images/2419179-c9a57fdaf8c6aacd.gif?imageMogr2/auto-orient/strip)
-
+![JXTimePicker](http://github.com/JiongXing/JXPickerContainer/raw/master/screenshot/JXPickerContainer.gif)
 - 简单用法
 
 ```objc
