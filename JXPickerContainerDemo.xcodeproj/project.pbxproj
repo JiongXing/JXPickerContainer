@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947DF23E1D6B10E700B55FDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF23D1D6B10E700B55FDA /* main.m */; };
+		947DF2411D6B10E700B55FDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF2401D6B10E700B55FDA /* AppDelegate.m */; };
+		947DF2441D6B10E700B55FDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF2431D6B10E700B55FDA /* ViewController.m */; };
+		947DF2471D6B10E700B55FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947DF2451D6B10E700B55FDA /* Main.storyboard */; };
+		947DF2491D6B10E700B55FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947DF2481D6B10E700B55FDA /* Assets.xcassets */; };
+		947DF24C1D6B10E700B55FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947DF24A1D6B10E700B55FDA /* LaunchScreen.storyboard */; };
+		947DF2561D6B110400B55FDA /* JXPickerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF2551D6B110400B55FDA /* JXPickerContainer.m */; };
+		947DF25B1D6B13BF00B55FDA /* JXTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF25A1D6B13BF00B55FDA /* JXTimePickerView.m */; };
+		947DF25E1D6B13E600B55FDA /* JXTimePickerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 947DF25D1D6B13E600B55FDA /* JXTimePickerViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		947DF2391D6B10E700B55FDA /* JXPickerContainerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXPickerContainerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947DF23D1D6B10E700B55FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		947DF23F1D6B10E700B55FDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		947DF2401D6B10E700B55FDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		947DF2421D6B10E700B55FDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		947DF2431D6B10E700B55FDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		947DF2461D6B10E700B55FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		947DF2481D6B10E700B55FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		947DF24B1D6B10E700B55FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		947DF24D1D6B10E700B55FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947DF2541D6B110400B55FDA /* JXPickerContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXPickerContainer.h; sourceTree = "<group>"; };
+		947DF2551D6B110400B55FDA /* JXPickerContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXPickerContainer.m; sourceTree = "<group>"; };
+		947DF2591D6B13BF00B55FDA /* JXTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTimePickerView.h; sourceTree = "<group>"; };
+		947DF25A1D6B13BF00B55FDA /* JXTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTimePickerView.m; sourceTree = "<group>"; };
+		947DF25C1D6B13E600B55FDA /* JXTimePickerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTimePickerViewModel.h; sourceTree = "<group>"; };
+		947DF25D1D6B13E600B55FDA /* JXTimePickerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTimePickerViewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947DF2361D6B10E700B55FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947DF2301D6B10E700B55FDA = {
+			isa = PBXGroup;
+			children = (
+				947DF23B1D6B10E700B55FDA /* JXPickerContainerDemo */,
+				947DF23A1D6B10E700B55FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947DF23A1D6B10E700B55FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947DF2391D6B10E700B55FDA /* JXPickerContainerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947DF23B1D6B10E700B55FDA /* JXPickerContainerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				947DF2531D6B10F200B55FDA /* JXPickerContainer */,
+				947DF2581D6B13AD00B55FDA /* JXTimePickerView */,
+				947DF23F1D6B10E700B55FDA /* AppDelegate.h */,
+				947DF2401D6B10E700B55FDA /* AppDelegate.m */,
+				947DF2421D6B10E700B55FDA /* ViewController.h */,
+				947DF2431D6B10E700B55FDA /* ViewController.m */,
+				947DF2451D6B10E700B55FDA /* Main.storyboard */,
+				947DF2481D6B10E700B55FDA /* Assets.xcassets */,
+				947DF24A1D6B10E700B55FDA /* LaunchScreen.storyboard */,
+				947DF24D1D6B10E700B55FDA /* Info.plist */,
+				947DF23C1D6B10E700B55FDA /* Supporting Files */,
+			);
+			path = JXPickerContainerDemo;
+			sourceTree = "<group>";
+		};
+		947DF23C1D6B10E700B55FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947DF23D1D6B10E700B55FDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		947DF2531D6B10F200B55FDA /* JXPickerContainer */ = {
+			isa = PBXGroup;
+			children = (
+				947DF2541D6B110400B55FDA /* JXPickerContainer.h */,
+				947DF2551D6B110400B55FDA /* JXPickerContainer.m */,
+			);
+			path = JXPickerContainer;
+			sourceTree = "<group>";
+		};
+		947DF2581D6B13AD00B55FDA /* JXTimePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				947DF2591D6B13BF00B55FDA /* JXTimePickerView.h */,
+				947DF25A1D6B13BF00B55FDA /* JXTimePickerView.m */,
+				947DF25C1D6B13E600B55FDA /* JXTimePickerViewModel.h */,
+				947DF25D1D6B13E600B55FDA /* JXTimePickerViewModel.m */,
+			);
+			path = JXTimePickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947DF2381D6B10E700B55FDA /* JXPickerContainerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947DF2501D6B10E700B55FDA /* Build configuration list for PBXNativeTarget "JXPickerContainerDemo" */;
+			buildPhases = (
+				947DF2351D6B10E700B55FDA /* Sources */,
+				947DF2361D6B10E700B55FDA /* Frameworks */,
+				947DF2371D6B10E700B55FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXPickerContainerDemo;
+			productName = JXPickerContainerDemo;
+			productReference = 947DF2391D6B10E700B55FDA /* JXPickerContainerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947DF2311D6B10E700B55FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JiongXing;
+				TargetAttributes = {
+					947DF2381D6B10E700B55FDA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 947DF2341D6B10E700B55FDA /* Build configuration list for PBXProject "JXPickerContainerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947DF2301D6B10E700B55FDA;
+			productRefGroup = 947DF23A1D6B10E700B55FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947DF2381D6B10E700B55FDA /* JXPickerContainerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947DF2371D6B10E700B55FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DF24C1D6B10E700B55FDA /* LaunchScreen.storyboard in Resources */,
+				947DF2491D6B10E700B55FDA /* Assets.xcassets in Resources */,
+				947DF2471D6B10E700B55FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947DF2351D6B10E700B55FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DF2441D6B10E700B55FDA /* ViewController.m in Sources */,
+				947DF2561D6B110400B55FDA /* JXPickerContainer.m in Sources */,
+				947DF2411D6B10E700B55FDA /* AppDelegate.m in Sources */,
+				947DF23E1D6B10E700B55FDA /* main.m in Sources */,
+				947DF25B1D6B13BF00B55FDA /* JXTimePickerView.m in Sources */,
+				947DF25E1D6B13E600B55FDA /* JXTimePickerViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		947DF2451D6B10E700B55FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947DF2461D6B10E700B55FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		947DF24A1D6B10E700B55FDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947DF24B1D6B10E700B55FDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947DF24E1D6B10E700B55FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		947DF24F1D6B10E700B55FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947DF2511D6B10E700B55FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXPickerContainerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JiongXing.JXPickerContainerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		947DF2521D6B10E700B55FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXPickerContainerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JiongXing.JXPickerContainerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947DF2341D6B10E700B55FDA /* Build configuration list for PBXProject "JXPickerContainerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947DF24E1D6B10E700B55FDA /* Debug */,
+				947DF24F1D6B10E700B55FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947DF2501D6B10E700B55FDA /* Build configuration list for PBXNativeTarget "JXPickerContainerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947DF2511D6B10E700B55FDA /* Debug */,
+				947DF2521D6B10E700B55FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947DF2311D6B10E700B55FDA /* Project object */;
+}
